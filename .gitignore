@@ -1,3 +1,6 @@
+env/
+venv/
+*.zip
 plant_village/
 __pycache__/
 *.h5
