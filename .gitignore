@@ -1,0 +1,4 @@
+plant_village/
+__pycache__/
+*.h5
+*.keras
