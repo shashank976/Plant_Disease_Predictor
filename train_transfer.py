@@ -11,7 +11,7 @@ BASE_DIR = "plant_village/PlantVillage"
 IMG_SIZE = 224
 BATCH_SIZE = 32
 EPOCHS_HEAD = 5        
-EPOCHS_FINETUNE = 15    
+EPOCHS_FINETUNE = 10    
 MODEL_OUT = "plant_disease_transfer.keras"
 
 # Data generators
