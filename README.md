@@ -1,6 +1,17 @@
 # Plant Disease Classifier
 
-A deep learning project that classifies plant diseases from leaf images using Convolutional Neural Networks (CNNs). This tool helps farmers and researchers quickly identify plant diseases for early intervention.
+A deep learning model that classifies plant leaf images into 16 disease categories using **transfer learning (MobileNetV2)**. Trained on the [PlantVillage dataset](https://www.kaggle.com/datasets/emmarex/plantdisease) with >33k images.
+
+---
+
+## Features
+- Identifies **16 plant leaf conditions** (healthy + diseases).
+- Built with **TensorFlow / Keras**.
+- Uses **transfer learning (MobileNetV2)** for faster training and higher accuracy.
+- Achieves ~85% validation accuracy.
+- Includes **training** and **prediction** scripts.
+
+---
 
 ## How It Works
 1. **Input Images:** Provide images of plant leaves.  
@@ -10,7 +21,6 @@ A deep learning project that classifies plant diseases from leaf images using Co
 5. **Output:** The predicted disease label helps identify the issue so proper action can be taken.
 
 The project supports:
-- Training a CNN from scratch (`train_model.py`)  
 - Using transfer learning with a pretrained model (`train_transfer.py`)  
 - Making predictions on new images (`predict.py`)  
 
